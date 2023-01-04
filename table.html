@@ -5,45 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=q, initial-scale=1.0">
     <title>Table</title>
+    <link rel="stylesheet" href="styles/nav.css">
     <style>
-        td{
+        td,th{
             border: 2px solid black ;
             /* border-collapse: collapse; */
+            padding: 5px 10px;
         }
         table{
-            border-collapse: collapse;
+            border-collapse:collapse;
         }
+
     </style>
 </head>
 <body>
+
+    <nav>
+        <ul>
+            <li><a href="form.html">form</a></li>
+            <li><a href="index.html">index</a></li>
+            <li><a href="audio.html">audio</a></li>
+            <li><a href="video.html">video</a></li>
+        </ul>
+    </nav>
+        <header>
+            <h2>my Salary sheet</h2>
+        </header>
         <table>
-            <tr>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Full name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            
+                <tbody>
+             
+              <tr>
                 <td>1</td>
                 <td>bill gates</td>
                 <td>micro</td>
                 <td>1000</td>
-            </tr>
+              </tr>
+              <tr>
                 <td>2</td>
                 <td>steve jobes</td>
                 <td>apple</td>
                 <td>1200</td>
-            <tr>
-                <td>3</td>
-                <td>lary page </td>
-                <td>google</td>
-                <td> 1100</td>
-            </tr>
-                <td>4</td>
-                <td>mark jukerberg</td>
-                <td>facebook</td>
-                <td> 1300</td>
-            <tr>
-
-            </tr>
-
-            <tr>
-
-            </tr>
+              </tr>
+                   
+                <tr>
+                    <td>3</td>
+                    <td>lary page </td>
+                    <td>google</td>
+                    <td> 1100</td>
+                </tr>
+                 
+                <tr>
+                    <td>4</td>
+                    <td>mark jukerberg</td>
+                    <td>facebook</td>
+                    <td> 1300</td>
+                </tr>
+                
+                </tbody>
         </table>
 </body>
 </html>
